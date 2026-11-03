@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AI Selenium Framework — POM Suite" verbose="1" parallel="false">
+
+    <listeners>
+        <!-- Handles ExtentReports lifecycle + AI Root-Cause Analysis on failure -->
+        <listener class-name="com.jaivir.qa.base.ExtentTestListener"/>
+    </listeners>
+
+    <test name="Login Feature Tests">
+        <classes>
+            <class name="com.jaivir.qa.ai.SelfHealingBrowserTest"/>
+            <class name="com.jaivir.qa.tests.LoginTest">
+                <methods>
+                    <include name="loginWithValidCredentials"/>
+                    <include name="loginWithInvalidCredentials"/>
+                    <include name="logoutFromSecureArea"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

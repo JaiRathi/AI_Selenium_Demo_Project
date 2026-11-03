@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-03T09:09:24 IST" name="Default suite" finished-at="2026-11-03T09:13:42 IST" duration-ms="257954">
+    <groups>
+    </groups>
+    <test started-at="2026-11-03T09:09:24 IST" name="Default test" finished-at="2026-11-03T09:13:42 IST" duration-ms="257954">
+      <class name="com.jaivir.qa.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.jaivir.qa.tests.LoginTest@4d9e68d0]" started-at="2026-11-03T09:09:24 IST" name="setUp" finished-at="2026-11-03T09:09:25 IST" duration-ms="1123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jaivir.qa.tests.LoginTest.loginWithInvalidCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithInvalidCredentials()[pri:0, instance:com.jaivir.qa.tests.LoginTest@4d9e68d0]" started-at="2026-11-03T09:09:25 IST" name="loginWithInvalidCredentials" description="Invalid credentials should show an error message" finished-at="2026-11-03T09:13:22 IST" duration-ms="236589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jaivir.qa.tests.LoginTest@4d9e68d0]" started-at="2026-11-03T09:13:22 IST" name="tearDown" finished-at="2026-11-03T09:13:22 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.jaivir.qa.tests.LoginTest@4d9e68d0]" started-at="2026-11-03T09:13:22 IST" name="setUp" finished-at="2026-11-03T09:13:22 IST" duration-ms="554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jaivir.qa.tests.LoginTest.loginWithValidCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentials()[pri:0, instance:com.jaivir.qa.tests.LoginTest@4d9e68d0]" started-at="2026-11-03T09:13:22 IST" name="loginWithValidCredentials" description="Valid credentials should redirect to the Secure Area" finished-at="2026-11-03T09:13:26 IST" duration-ms="4060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jaivir.qa.tests.LoginTest@4d9e68d0]" started-at="2026-11-03T09:13:26 IST" name="tearDown" finished-at="2026-11-03T09:13:27 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.jaivir.qa.tests.LoginTest@4d9e68d0]" started-at="2026-11-03T09:13:27 IST" name="setUp" finished-at="2026-11-03T09:13:27 IST" duration-ms="448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jaivir.qa.tests.LoginTest.logoutFromSecureArea()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoutFromSecureArea()[pri:0, instance:com.jaivir.qa.tests.LoginTest@4d9e68d0]" started-at="2026-11-03T09:13:27 IST" name="logoutFromSecureArea" description="User can log out from the secure area" finished-at="2026-11-03T09:13:31 IST" duration-ms="4247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromSecureArea -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jaivir.qa.tests.LoginTest@4d9e68d0]" started-at="2026-11-03T09:13:31 IST" name="tearDown" finished-at="2026-11-03T09:13:31 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.jaivir.qa.tests.LoginTest@4d9e68d0]" started-at="2026-11-03T09:13:31 IST" name="setUp" finished-at="2026-11-03T09:13:32 IST" duration-ms="481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jaivir.qa.tests.LoginTest.selfHealingBrokenLocatorDemo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selfHealingBrokenLocatorDemo()[pri:0, instance:com.jaivir.qa.tests.LoginTest@4d9e68d0]" started-at="2026-11-03T09:13:32 IST" name="selfHealingBrokenLocatorDemo" description="Self-healing demo: intentionally broken locator is healed by AI" finished-at="2026-11-03T09:13:42 IST" duration-ms="10068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selfHealingBrokenLocatorDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jaivir.qa.tests.LoginTest@4d9e68d0]" started-at="2026-11-03T09:13:42 IST" name="tearDown" finished-at="2026-11-03T09:13:42 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jaivir.qa.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
